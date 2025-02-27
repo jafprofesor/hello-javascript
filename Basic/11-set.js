@@ -1,6 +1,5 @@
 /*
 Clase 26 - Sets 
-Vídeo: https://youtu.be/1glVfFxj8a4?t=9952
 */
 
 // Set
@@ -13,7 +12,7 @@ console.log(mySet)
 
 // Inicialización
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+mySet = new Set(["Juan", "Antonio", "jaf", 37, true, "juanprofesor@proton.com"])
 
 console.log(mySet)
 
@@ -21,23 +20,23 @@ console.log(mySet)
 
 // add y delete
 
-mySet.add("https://moure.dev")
+mySet.add("https://juanprofesor.com")
 
 console.log(mySet)
 
-mySet.delete("https://moure.dev")
+mySet.delete("https://juanprofesor.com")
 
 console.log(mySet)
 
-console.log(mySet.delete("Brais"))
+console.log(mySet.delete("Juan"))
 console.log(mySet.delete(4))
 
 console.log(mySet)
 
 // has
 
-console.log(mySet.has("Moure"))
-console.log(mySet.has("Brais"))
+console.log(mySet.has("Juan"))
+console.log(mySet.has("Antonio"))
 
 // size
 
@@ -54,8 +53,8 @@ console.log(mySet)
 
 // No admite duplicados
 
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("braismoure@mouredev.com")
-mySet.add("BraisMoure@mouredev.com")
+mySet.add("juanprofesor@proton.com")
+mySet.add("juanprofesor@proton.com")
+mySet.add("juanprofesor@proton.com")
+mySet.add("juanprofesor@proton.com")
 console.log(mySet)
