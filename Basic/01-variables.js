@@ -1,6 +1,5 @@
 /*
 Clase 16 - Variables
-Vídeo: https://youtu.be/1glVfFxj8a4?t=3049
 */
 
 // var
