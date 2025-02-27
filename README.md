@@ -2,31 +2,6 @@
 
 [![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow?style=for-the-badge&logo=javascript&logoColor=white&labelColor=101010)](https://developer.mozilla.org/es/docs/Web/JavaScript) [![NodeJS](https://img.shields.io/badge/NODEJS-v20+-green?style=for-the-badge&logo=nodedotjs&logoColor=white&labelColor=101010)](https://nodejs.org/)
 
-## Curso para aprender el lenguaje de programación JavaScript desde cero y para principiantes
-
-* Clase 1 Funciones avanzadas
-	* [Código](./Intermediate/00-advanced-functions.js)
-	* [Ejericios](./Intermediate/01-advanced-functions-exercises.js)
-
-* Clase 2 Estructuras avanzadas
-	* [Código](./Intermediate/02-advanced-structures.js)
-	* [Ejericios](./Intermediate/03-advanced-structures-exercises.js)
-
-* Clase 3 Objetos y Clases avanzadas
-	* [Código Objetos](./Intermediate/04-advanced-objects.js)
-	* [Código Clases](./Intermediate/05-advanced-classes.js)
-	* [Ejericios](./Intermediate/06-advanced-objects-classes-exercises)
-
-* Clase 4 Programación asíncrona
-	* [Código](./Intermediate/07-async.js)
-	* [Ejericios](./Intermediate/08-async-exercises.js)
-
-* Clase 5 Manejo de APIs
-	* [Código](./Intermediate/09-apis.js)
-	* [Ejericios](./Intermediate/10-apis-exercises.js)
-
-
-
 ### Curso de fundamentos desde cero
 
 * [Introducción]
@@ -75,6 +50,30 @@
 * [43 - Ejercicios: Console][Ejercicios](./Basic/27-console-methods-exercises.js)
 * [44 - Módulos][Código exportación](./Basic/28-export-modules.js) | [Código importación](./Basic/29-import-modules.js) | [Código externos](./Basic/30-import-external-modules.cjs)
 * [45 - Ejercicios: [Ejercicios](./Basic/31-modules-exercises.js) | [package.json](./Basic/package.json)
+
+## Curso para aprender el lenguaje de programación JavaScript desde cero y para principiantes
+
+* Clase 1 Funciones avanzadas
+	* [Código](./Intermediate/00-advanced-functions.js)
+	* [Ejericios](./Intermediate/01-advanced-functions-exercises.js)
+
+* Clase 2 Estructuras avanzadas
+	* [Código](./Intermediate/02-advanced-structures.js)
+	* [Ejericios](./Intermediate/03-advanced-structures-exercises.js)
+
+* Clase 3 Objetos y Clases avanzadas
+	* [Código Objetos](./Intermediate/04-advanced-objects.js)
+	* [Código Clases](./Intermediate/05-advanced-classes.js)
+	* [Ejericios](./Intermediate/06-advanced-objects-classes-exercises)
+
+* Clase 4 Programación asíncrona
+	* [Código](./Intermediate/07-async.js)
+	* [Ejericios](./Intermediate/08-async-exercises.js)
+
+* Clase 5 Manejo de APIs
+	* [Código](./Intermediate/09-apis.js)
+	* [Ejericios](./Intermediate/10-apis-exercises.js)
+
 
 
 ## Enlaces de interés
