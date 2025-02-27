@@ -1,6 +1,5 @@
 /*
 Clase 37 - Clases
-Vídeo: https://youtu.be/1glVfFxj8a4?t=16864
 */
 
 // Clases
@@ -17,8 +16,8 @@ class Person {
 
 // Sintaxis
 
-let person = new Person("Brais", 37, "MoureDev")
-let person2 = new Person("Brais", 37, "MoureDev")
+let person = new Person("Juan", 37, "jaf")
+let person2 = new Person("Juan", 37, "jaf")
 
 console.log(person)
 console.log(person2)
@@ -37,7 +36,7 @@ class DefaultPerson {
 
 }
 
-let person3 = new DefaultPerson("Brais", 37)
+let person3 = new DefaultPerson("Juan", 37)
 
 console.log(person3)
 
@@ -46,7 +45,7 @@ console.log(person3)
 console.log(person3.alias)
 console.log(person3["alias"])
 
-person3.alias = "MoureDev"
+person3.alias = "jaf"
 
 console.log(person3.alias)
 
@@ -66,7 +65,7 @@ class PersonWithMethod {
 
 }
 
-let person4 = new PersonWithMethod("Brais", 37, "MoureDev")
+let person4 = new PersonWithMethod("Juan", 37, "jaf")
 person4.walk()
 
 // Propiedades privadas
@@ -88,7 +87,7 @@ class PrivatePerson {
 
 }
 
-let person5 = new PrivatePerson("Brais", 37, "MoureDev", "IBAN123456789")
+let person5 = new PrivatePerson("Juan", 37, "jaf", "IBAN123456789")
 
 // No podemos acceder
 // console.log(person5.bank) 
@@ -122,7 +121,7 @@ class GetSetPerson {
 
 }
 
-person6 = new GetSetPerson("Brais", 37, "MoureDev", "IBAN123456789")
+person6 = new GetSetPerson("Juan", 37, "jaf", "IBAN123456789")
 
 console.log(person6)
 console.log(person6.name)
@@ -131,7 +130,6 @@ person6.bank = "new IBAN123456789"
 
 /*
 Clase 38 - Herencia de clases
-Vídeo: https://youtu.be/1glVfFxj8a4?t=17999
 */
 
 // Herencia
