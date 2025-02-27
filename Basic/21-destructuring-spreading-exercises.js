@@ -1,6 +1,5 @@
 /*
 Clase 36 - Ejercicios: Desestructuración y propagación
-Vídeo: https://youtu.be/1glVfFxj8a4?t=16802
 */
 
 // 1. Usa desestructuración para extraer los dos primeros elementos de un array 
