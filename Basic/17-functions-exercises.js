@@ -1,6 +1,5 @@
 /*
 Clase 32 - Ejercicios: Funciones
-Vídeo: https://youtu.be/1glVfFxj8a4?t=14146
 */
 
 // NOTA: Explora diferentes sintaxis de funciones para resolver los ejercicios
