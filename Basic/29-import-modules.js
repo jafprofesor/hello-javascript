@@ -1,6 +1,5 @@
 /*
 Clase 44 - Módulos
-Vídeo: https://youtu.be/1glVfFxj8a4?t=21480
 */
 
 // Importación de módulos
