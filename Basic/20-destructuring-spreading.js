@@ -1,14 +1,13 @@
 /*
 Clase 35 - Desestructuración y propagación
-Vídeo: https://youtu.be/1glVfFxj8a4?t=15747
 */
 
 let myArray = [1, 2, 3, 4]
 
 let person = {
-    name: "Brais",
+    name: "Juan",
     age: 37,
-    alias: "MoureDev"
+    alias: "jaf"
 }
 
 let myValue = myArray[1]
@@ -68,9 +67,9 @@ console.log(alias3)
 // Objects anidados
 
 let person3 = {
-    name: "Brais",
+    name: "Juan",
     age: 37,
-    alias: "MoureDev",
+    alias: "jaf",
     walk: function () {
         console.log("La persona camina.")
     },
