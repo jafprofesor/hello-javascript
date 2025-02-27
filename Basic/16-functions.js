@@ -1,6 +1,5 @@
 /*
 Clase 31 - Funciones
-Vídeo: https://youtu.be/1glVfFxj8a4?t=12829
 */
 
 // Funciones
@@ -21,8 +20,8 @@ function myFuncWithParams(name) {
     console.log(`¡Hola, ${name}!`)
 }
 
-myFuncWithParams("Brais")
-myFuncWithParams("MoureDev")
+myFuncWithParams("Juan")
+myFuncWithParams("jaf")
 
 // Funciones anónimas
 
@@ -30,7 +29,7 @@ const myFunc2 = function (name) {
     console.log(`¡Hola, ${name}!`)
 }
 
-myFunc2("Brais Moure")
+myFunc2("Juan Antonio")
 
 // Arrow functions
 
@@ -40,8 +39,8 @@ const myFunc3 = (name) => {
 
 const myFunc4 = (name) => console.log(`¡Hola, ${name}!`)
 
-myFunc3("Brais Moure")
-myFunc4("Brais Moure")
+myFunc3("Juan Antonio")
+myFunc4("Juan Antonio")
 
 // Parámetros
 
@@ -98,11 +97,11 @@ applyFunc(myFunc4, "función de orden superior")
 
 myArray = [1, 2, 3, 4]
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+mySet = new Set(["Juan", "Antonio", "jaf", 37, true, "juanprofesor@proton.com"])
 
 myMap = new Map([
-    ["name", "Brais"],
-    ["email", "braismoure@mouredev.com"],
+    ["name", "Juan"],
+    ["email", "juanprofesor@proton.com"],
     ["age", 37]
 ])
 
