@@ -1,6 +1,5 @@
 /*
 Clase 43 - Ejercicios: Console
-Vídeo: https://youtu.be/1glVfFxj8a4?t=21421
 */
 
 // 1. Crea un función que utilice error correctamente
