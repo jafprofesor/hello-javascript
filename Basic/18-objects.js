@@ -1,6 +1,5 @@
 /*
 Clase 33 - Objetos
-Vídeo: https://youtu.be/1glVfFxj8a4?t=14229
 */
 
 // Objetos
@@ -8,9 +7,9 @@ Vídeo: https://youtu.be/1glVfFxj8a4?t=14229
 // Sintaxis
 
 let person = {
-    name: "Brais",
+    name: "Juan",
     age: 37,
-    alias: "MoureDev"
+    alias: "jaf"
 }
 
 // Acceso a propiedades
@@ -23,7 +22,7 @@ console.log(person["name"])
 
 // Modificación de propiedades
 
-person.name = "Brais Moure"
+person.name = "Juan Antonio"
 console.log(person.name)
 
 console.log(typeof person.age)
@@ -39,7 +38,7 @@ console.log(person)
 
 // Nueva propiedad
 
-person.email = "braismoure@mouredev.com"
+person.email = "juanprofesor@proton.com"
 person["age"] = 37
 
 console.log(person)
@@ -47,9 +46,9 @@ console.log(person)
 // Métodos (funciones)
 
 let person2 = {
-    name: "Brais",
+    name: "Juan",
     age: 37,
-    alias: "MoureDev",
+    alias: "jaf",
     walk: function () {
         console.log("La persona camina.")
     }
@@ -59,9 +58,9 @@ person2.walk()
 // Anidación de objetos
 
 let person3 = {
-    name: "Brais",
+    name: "Juan",
     age: 37,
-    alias: "MoureDev",
+    alias: "jaf",
     walk: function () {
         console.log("La persona camina.")
     },
@@ -84,9 +83,9 @@ person3.job.work()
 // Igualdad de objetos
 
 let person4 = {
-    name: "Brais Moure",
-    alias: "MoureDev",
-    email: "braismoure@mouredev.com",
+    name: "Juan Antonio",
+    alias: "jaf",
+    email: "juanprofesor@proton.com",
     age: 37
 }
 
@@ -111,7 +110,7 @@ function Person(name, age) { // Debería ser una clase
     this.age = age
 }
 
-let person5 = new Person("Brais", 37)
+let person5 = new Person("Juan", 37)
 console.log(person5)
 console.log(person5.name)
 
