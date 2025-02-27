@@ -4,8 +4,6 @@
 
 ## Curso para aprender el lenguaje de programación JavaScript desde cero y para principiantes
 
-![](./Images/header.jpg)
-
 * Clase 1 Funciones avanzadas
 	* [Código](./Intermediate/00-advanced-functions.js)
 	* [Ejericios](./Intermediate/01-advanced-functions-exercises.js)
@@ -30,8 +28,6 @@
 
 
 ### Curso de fundamentos desde cero
-
-<a href="https://youtu.be/1glVfFxj8a4"><img src="http://i3.ytimg.com/vi/1glVfFxj8a4/maxresdefault.jpg" style="height: 50%; width:50%;"/></a>
 
 * [Introducción](https://youtu.be/1glVfFxj8a4)
 * [1 - Contexto](https://youtu.be/1glVfFxj8a4?t=174)
