@@ -1,6 +1,5 @@
 /*
 Clase 29 - Bucles
-Vídeo: https://youtu.be/1glVfFxj8a4?t=11575
 */
 
 // Loops o bucles
@@ -41,11 +40,11 @@ do {
 
 myArray = [1, 2, 3, 4]
 
-mySet = new Set(["Brais", "Moure", "mouredev", 37, true, "braismoure@mouredev.com"])
+mySet = new Set(["Juan", "Antonio", "jaf", 37, true, "juanprofesor@proton.com"])
 
 myMap = new Map([
-    ["name", "Brais"],
-    ["email", "braismoure@mouredev.com"],
+    ["name", "Juan"],
+    ["email", "juanprofesor@proton.com"],
     ["age", 37]
 ])
 
