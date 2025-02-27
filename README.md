@@ -29,51 +29,51 @@
 
 ### Curso de fundamentos desde cero
 
-* [Introducción](https://youtu.be/1glVfFxj8a4)
-* [1 - Contexto](https://youtu.be/1glVfFxj8a4?t=174)
-* [2 - Historia](https://youtu.be/1glVfFxj8a4?t=322)
-* [3 - JavaScript y Java](https://youtu.be/1glVfFxj8a4?t=665)
-* [4 - Utilización](https://youtu.be/1glVfFxj8a4?t=931)
-* [5 - Especificación ECMAScript](https://youtu.be/1glVfFxj8a4?t=1017)
-* [6 - Motor V8](https://youtu.be/1glVfFxj8a4?t=1293)
-* [7 - Referencia](https://youtu.be/1glVfFxj8a4?t=1403)
-* [8 - Ejercicios prácticos](https://youtu.be/1glVfFxj8a4?t=1621)
-* [9 - Versión](https://youtu.be/1glVfFxj8a4?t=1705)
-* [10 - Explorador web](https://youtu.be/1glVfFxj8a4?t=1768)
-* [11 - Playground](https://youtu.be/1glVfFxj8a4?t=1893)
-* [12 - Instalación](https://youtu.be/1glVfFxj8a4?t=1988)
-* [13 - Editor de código](https://youtu.be/1glVfFxj8a4?t=2256)
-* [14 - Buenas prácticas](https://youtu.be/1glVfFxj8a4?t=2311)
-* [15 - Hola mundo](https://youtu.be/1glVfFxj8a4?t=2390) | [Código](./Basic/00-helloworld.js)
-* [16 - Variables](https://youtu.be/1glVfFxj8a4?t=3049) | [Código](./Basic/01-variables.js)
-* [17 - Tipos de datos](https://youtu.be/1glVfFxj8a4?t=3599) | [Código](./Basic/02-datatypes.js)
-* [18 - Ejercicios: primeros pasos](https://youtu.be/1glVfFxj8a4?t=4733) | [Ejercicios](./Basic/03-beginner-exercises.js)
-* [19 - Operadores](https://youtu.be/1glVfFxj8a4?t=4937) | [Código](./Basic/04-operators.js)
-* [20 - Ejercicios: Operadores](https://youtu.be/1glVfFxj8a4?t=6458) | [Ejercicios](./Basic/05-operators-exercises.js)
-* [21 - Strings](https://youtu.be/1glVfFxj8a4?t=6565) | [Código](./Basic/06-strings.js)
-* [22 - Ejercicios: Strings](https://youtu.be/1glVfFxj8a4?t=7226) | [Ejercicios](./Basic/07-strings-exercises.js)
-* [23 - Condicionales](https://youtu.be/1glVfFxj8a4?t=7277) | [Código](./Basic/08-conditionals.js)
-* [24 - Ejercicios: Condicionales](https://youtu.be/1glVfFxj8a4?t=8652) | [Ejercicios](./Basic/09-conditionals-exercises.js)
-* [25 - Arrays](https://youtu.be/1glVfFxj8a4?t=8741) | [Código](./Basic/10-array.js)
-* [26 - Sets](https://youtu.be/1glVfFxj8a4?t=9952) | [Código](./Basic/11-set.js)
-* [27 - Maps](https://youtu.be/1glVfFxj8a4?t=10755) | [Código](./Basic/12-map.js)
-* [28 - Ejercicios: Estructuras](https://youtu.be/1glVfFxj8a4?t=11451) | [Ejercicios](./Basic/13-structures-exercises.js)
-* [29 - Bucles](https://youtu.be/1glVfFxj8a4?t=11575) | [Código](./Basic/14-loops.js)
-* [30 - Ejercicios: Bucles](https://youtu.be/1glVfFxj8a4?t=12732) | [Ejercicios](./Basic/15-loops-exercises.js)
-* [31 - Funciones](https://youtu.be/1glVfFxj8a4?t=12829) | [Código](./Basic/16-functions.js)
-* [32 - Ejercicios: Funciones](https://youtu.be/1glVfFxj8a4?t=14146) | [Ejercicios](./Basic/17-functions-exercises.js)
-* [33 - Objetos](https://youtu.be/1glVfFxj8a4?t=14229) | [Código](./Basic/18-objects.js)
-* [34 - Ejercicios: Objetos](https://youtu.be/1glVfFxj8a4?t=15675) | [Ejercicios](./Basic/19-objects-exercises.js)
-* [35 - Desestructuración y propagación](https://youtu.be/1glVfFxj8a4?t=15747) | [Código](./Basic/20-destructuring-spreading.js)
-* [36 - Ejercicios: Desestructuración y propagación](https://youtu.be/1glVfFxj8a4?t=16802) | [Ejercicios](./Basic/21-destructuring-spreading-exercises.js)
-* [37 - Clases](https://youtu.be/1glVfFxj8a4?t=16864) | [Código](./Basic/22-classes.js)
-* [38 - Herencia de clases](https://youtu.be/1glVfFxj8a4?t=17999) | [Código](./Basic/22-classes.js)
-* [39 - Ejercicios: Clases](https://youtu.be/1glVfFxj8a4?t=18630) | [Ejercicios](./Basic/23-classes-exercises.js)
-* [40 - Manejo de errores](https://youtu.be/1glVfFxj8a4?t=18751) | [Código](./Basic/24-error-handling.js)
-* [41 - Ejercicios: Manejo de errores](https://youtu.be/1glVfFxj8a4?t=20392) | [Ejercicios](./Basic/25-error-handling-exercises.js)
-* [42 - Console](https://youtu.be/1glVfFxj8a4?t=20444) | [Código](./Basic/26-console-methods.js)
-* [43 - Ejercicios: Console](https://youtu.be/1glVfFxj8a4?t=21421) | [Ejercicios](./Basic/27-console-methods-exercises.js)
-* [44 - Módulos](https://youtu.be/1glVfFxj8a4?t=21480) | [Código exportación](./Basic/28-export-modules.js) | [Código importación](./Basic/29-import-modules.js) | [Código externos](./Basic/30-import-external-modules.cjs)
+* [Introducción]
+* [1 - Contexto]
+* [2 - Historia]
+* [3 - JavaScript y Java]
+* [4 - Utilización]
+* [5 - Especificación ECMAScript]
+* [6 - Motor V8]
+* [7 - Referencia]
+* [8 - Ejercicios prácticos]
+* [9 - Versión]
+* [10 - Explorador web]
+* [11 - Playground]
+* [12 - Instalación]
+* [13 - Editor de código]
+* [14 - Buenas prácticas]
+* [15 - Hola mundo][Código](./Basic/00-helloworld.js)
+* [16 - Variables][Código](./Basic/01-variables.js)
+* [17 - Tipos de datos][Código](./Basic/02-datatypes.js)
+* [18 - Ejercicios: primeros pasos][Ejercicios](./Basic/03-beginner-exercises.js)
+* [19 - Operadores][Código](./Basic/04-operators.js)
+* [20 - Ejercicios: Operadores][Ejercicios](./Basic/05-operators-exercises.js)
+* [21 - Strings][Código](./Basic/06-strings.js)
+* [22 - Ejercicios: Strings][Ejercicios](./Basic/07-strings-exercises.js)
+* [23 - Condicionales][Código](./Basic/08-conditionals.js)
+* [24 - Ejercicios: Condicionales][Ejercicios](./Basic/09-conditionals-exercises.js)
+* [25 - Arrays][Código](./Basic/10-array.js)
+* [26 - Sets][Código](./Basic/11-set.js)
+* [27 - Maps][Código](./Basic/12-map.js)
+* [28 - Ejercicios: Estructuras][Ejercicios](./Basic/13-structures-exercises.js)
+* [29 - Bucles][Código](./Basic/14-loops.js)
+* [30 - Ejercicios: Bucles][Ejercicios](./Basic/15-loops-exercises.js)
+* [31 - Funciones][Código](./Basic/16-functions.js)
+* [32 - Ejercicios: Funciones][Ejercicios](./Basic/17-functions-exercises.js)
+* [33 - Objetos][Código](./Basic/18-objects.js)
+* [34 - Ejercicios: Objetos][Ejercicios](./Basic/19-objects-exercises.js)
+* [35 - Desestructuración y propagación][Código](./Basic/20-destructuring-spreading.js)
+* [36 - Ejercicios: Desestructuración y propagación][Ejercicios](./Basic/21-destructuring-spreading-exercises.js)
+* [37 - Clases][Código](./Basic/22-classes.js)
+* [38 - Herencia de clases][Código](./Basic/22-classes.js)
+* [39 - Ejercicios: Clases][Ejercicios](./Basic/23-classes-exercises.js)
+* [40 - Manejo de errores][Código](./Basic/24-error-handling.js)
+* [41 - Ejercicios: Manejo de errores]| [Ejercicios](./Basic/25-error-handling-exercises.js)
+* [42 - Console][Código](./Basic/26-console-methods.js)
+* [43 - Ejercicios: Console][Ejercicios](./Basic/27-console-methods-exercises.js)
+* [44 - Módulos][Código exportación](./Basic/28-export-modules.js) | [Código importación](./Basic/29-import-modules.js) | [Código externos](./Basic/30-import-external-modules.cjs)
 * [45 - Ejercicios: [Ejercicios](./Basic/31-modules-exercises.js) | [package.json](./Basic/package.json)
 
 
