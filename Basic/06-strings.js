@@ -1,13 +1,12 @@
 /*
 Clase 21 - Strings
-Vídeo: https://youtu.be/1glVfFxj8a4?t=6565
 */
 
 // Strings (cadenas de texto)
 
 // Concatenación
 
-let myName = "Brais"
+let myName = "Juan"
 let greeting = "Hola, " + myName + "!"
 console.log(greeting)
 console.log(typeof greeting)
