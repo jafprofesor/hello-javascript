@@ -1,6 +1,5 @@
 /*
 Clase 42 - Console
-Vídeo: https://youtu.be/1glVfFxj8a4?t=20444
 */
 
 // Console
@@ -25,14 +24,14 @@ console.info("Este es un mensaje de información adicional.")
 // table
 
 let data = [
-    ["Brais", 37],
+    ["Juan", 37],
     ["Sara", 21]
 ]
 
 console.table(data)
 
 data = [
-    { name: "Brais", age: 37 },
+    { name: "Juan", age: 37 },
     { name: "Sara", age: 21 }
 ]
 
@@ -41,7 +40,7 @@ console.table(data)
 // group
 
 console.group("Usuario:")
-console.log("Nombre: Brais")
+console.log("Nombre: Juan")
 console.log("Edad: 37")
 console.groupEnd()
 
