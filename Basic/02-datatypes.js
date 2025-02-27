@@ -1,14 +1,13 @@
 /*
 Clase 17 - Tipos de datos
-Vídeo: https://youtu.be/1glVfFxj8a4?t=3599
 */
 
 // Tipos de datos primitivos
 
 // Cadenas de texto (string)
-let myName = "Brais Moure"
-let alias = 'MoureDev'
-let email = `braismoure@mouredev.com`
+let myName = "Juan Antonio"
+let alias = 'jaf'
+let email = `juanprofesor@proton.me`
 
 // Números (number)
 let age = 37 // Entero
