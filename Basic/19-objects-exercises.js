@@ -1,6 +1,5 @@
 /*
 Clase 34 - Ejercicios: Objetos
-Vídeo: https://youtu.be/1glVfFxj8a4?t=15675
 */
 
 // 1. Crea un objeto con 3 propiedades
