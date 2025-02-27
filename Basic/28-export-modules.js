@@ -1,6 +1,5 @@
 /*
 Clase 44 - Módulos
-Vídeo: https://youtu.be/1glVfFxj8a4?t=21480
 */
 
 // Exportación de módulos
@@ -16,7 +15,7 @@ console.log(add(5, 10))
 // Propiedades
 
 export const PI = 3.1416
-export let name = "MoureDev"
+export let name = "jaf"
 
 // Clases
 
