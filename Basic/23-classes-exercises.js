@@ -1,6 +1,5 @@
 /*
 Clase 39 - Ejercicios: Clases
-Vídeo: https://youtu.be/1glVfFxj8a4?t=18630
 */
 
 // 1. Crea una clase que reciba dos propiedades
