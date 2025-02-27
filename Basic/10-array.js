@@ -1,6 +1,5 @@
 /*
 Clase 25 - Arrays
-Vídeo: https://youtu.be/1glVfFxj8a4?t=8741
 */
 
 // Array
@@ -27,24 +26,24 @@ myArray2 = new Array(1, 2, 3, 4)
 console.log(myArray)
 console.log(myArray2)
 
-myArray = ["Brais", "Moure", "mouredev", 37, true]
-myArray2 = new Array("Brais", "Moure", "mouredev", 37, true)
+myArray = ["Juan", "Antonio", "jaf", 37, true]
+myArray2 = new Array("Juan", "Antonio", "jaf", 37, true)
 
 console.log(myArray)
 console.log(myArray2)
 
 myArray2 = new Array(3)
-myArray2[2] = "Brais"
-// myArray2[0] = "Moure"
-myArray2[1] = "mouredev"
-myArray2[4] = "mouredev"
+myArray2[2] = "Juan"
+// myArray2[0] = "Antonio"
+myArray2[1] = "jaf"
+myArray2[4] = "jaf"
 
 console.log(myArray2)
 
 myArray = []
-myArray[2] = "Brais"
-// myArray[0] = "Moure"
-myArray[1] = "mouredev"
+myArray[2] = "juan"
+// myArray[0] = "Antonio"
+myArray[1] = "jaf"
 
 console.log(myArray)
 
@@ -54,9 +53,9 @@ myArray = []
 
 // push y pop
 
-myArray.push("Brais")
-myArray.push("Moure")
-myArray.push("mouredev")
+myArray.push("Juan")
+myArray.push("Antonio")
+myArray.push("jaf")
 myArray.push(37)
 
 console.log(myArray)
@@ -71,7 +70,7 @@ console.log(myArray)
 console.log(myArray.shift())
 console.log(myArray)
 
-myArray.unshift("Brais", "mouredev")
+myArray.unshift("Juan", "jaf")
 console.log(myArray)
 
 // length
@@ -86,7 +85,7 @@ console.log(myArray)
 
 // slice
 
-myArray = ["Brais", "Moure", "mouredev", 37, true]
+myArray = ["Juan", "Antonio", "jaf", 37, true]
 
 let myNewArray = myArray.slice(1, 3)
 
@@ -98,7 +97,7 @@ console.log(myNewArray)
 myArray.splice(1, 3)
 console.log(myArray)
 
-myArray = ["Brais", "Moure", "mouredev", 37, true]
+myArray = ["Juan", "Antonio", "jav", 37, true]
 
 myArray.splice(1, 2, "Nueva entrada")
 console.log(myArray)
