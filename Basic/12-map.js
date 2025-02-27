@@ -1,6 +1,5 @@
 /*
 Clase 27 - Maps
-Vídeo: https://youtu.be/1glVfFxj8a4?t=10755
 */
 
 // Map
@@ -14,8 +13,8 @@ console.log(myMap)
 // Inicialiación
 
 myMap = new Map([
-    ["name", "Brais"],
-    ["email", "braismoure@mouredev.com"],
+    ["name", "Juan"],
+    ["email", "juanprofesor@proton.com"],
     ["age", 37]
 ])
 
@@ -25,8 +24,8 @@ console.log(myMap)
 
 // set
 
-myMap.set("alias", "mouredev")
-myMap.set("name", "Brais Moure")
+myMap.set("alias", "jaf")
+myMap.set("name", "Juan Antonio")
 
 console.log(myMap)
 
