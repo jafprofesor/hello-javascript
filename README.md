@@ -89,7 +89,7 @@
 * [Node.js](https://nodejs.org)
 * Exploradores: [Chrome](https://www.google.com/intl/es_es/chrome/) | [Brave](https://brave.com/download/)
 * [Visual Studio Code](https://code.visualstudio.com/)
-* Code Runner, instala la extensión desde la tienda de extensiones: [https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner]
+* Code Runner, [instala la extensión desde la tienda de extensiones](https://marketplace.visualstudio.com/items?itemName=formulahendry.code-runner)
 * [Guía de estilo](https://google.github.io/styleguide/jsguide.html)
 * Clientes HTTP: [Postman](https://postman.com) | [Apidog](https://apidog.com) | [Thunder Client](https://thunderclient.com)
 * APIs: [JSONPlaceholder](https://jsonplaceholder.typicode.com) | [OpenWeather](https://openweathermap.org) | [PokéAPI](https://pokeapi.co)
