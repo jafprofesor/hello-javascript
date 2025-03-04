@@ -2,95 +2,92 @@
 Clase 42 - Console
 */
 
-// Console
+// Console es un objeto global que proporciona métodos para interactuar con la consola del navegador.
 
-// log
+// log es el método más comúnmente utilizado para imprimir mensajes en la consola.
 
-console.log("¡Hola, JavaScript!")
+console.log("¡Hola, JavaScript!");
 
-// error
+// error es un método para imprimir mensajes de error en la consola.
 
-console.error("Este es un mensaje de error.")
-console.error("Error al conectarse a la base de datos: ", new Error("Conexión fallida."))
+console.error("Este es un mensaje de error.");
+console.error(
+  "Error al conectarse a la base de datos: ",
+  new Error("Conexión fallida.")
+);
 
-// warn
+// warn es un método para imprimir mensajes de advertencia en la consola.
 
-console.warn("Este es un mensaje de advertencia.")
+console.warn("Este es un mensaje de advertencia.");
 
-// info
+// info es un método para imprimir mensajes de información en la consola.
 
-console.info("Este es un mensaje de información adicional.")
+console.info("Este es un mensaje de información adicional.");
 
-// table
+// table es un método para imprimir datos en forma de tabla en la consola.
 
 let data = [
-    ["Juan", 37],
-    ["Sara", 21]
-]
+  ["Juan", 37],
+  ["Sara", 21],
+];
 
-console.table(data)
+console.table(data);
 
 data = [
-    { name: "Juan", age: 37 },
-    { name: "Sara", age: 21 }
-]
+  { name: "Juan", age: 37 },
+  { name: "Sara", age: 21 },
+];
 
-console.table(data)
+console.table(data);
 
-// group
+// group es un método para agrupar mensajes en la consola.
 
-console.group("Usuario:")
-console.log("Nombre: Juan")
-console.log("Edad: 37")
-console.groupEnd()
+console.group("Usuario:");
+console.log("Nombre: Juan");
+console.log("Edad: 37");
+console.groupEnd();
 
-// time
+// time es un método para medir el tiempo de ejecución de un bloque de código.
 
-console.time("Tiempo de ejecución 2")
+console.time("Tiempo de ejecución 2");
 
-for (let i = 0; i < 10000; i++) {
+for (let i = 0; i < 10000; i++) {}
 
-}
+console.time("Tiempo de ejecución 1");
 
-console.time("Tiempo de ejecución 1")
+for (let i = 0; i < 10000; i++) {}
 
-for (let i = 0; i < 10000; i++) {
+console.timeEnd("Tiempo de ejecución 2");
 
-}
+for (let i = 0; i < 10000; i++) {}
 
-console.timeEnd("Tiempo de ejecución 2")
+console.timeEnd("Tiempo de ejecución 1");
 
-for (let i = 0; i < 10000; i++) {
+// assert es un método para imprimir un mensaje de error si la condición especificada no se cumple.
 
-}
+let age = 17;
+console.assert(age >= 18, "El usuario debe ser mayor de edad.");
 
-console.timeEnd("Tiempo de ejecución 1")
+// count es un método para contar el número de veces que se ha llamado a un mensaje.
 
-// assert
+console.count("Click");
+console.count("Click");
+console.count("Click");
+console.countReset("Click");
+console.count("Click");
 
-let age = 17
-console.assert(age >= 18, "El usuario debe ser mayor de edad.")
-
-// count
-
-console.count("Click")
-console.count("Click")
-console.count("Click")
-console.countReset("Click")
-console.count("Click")
-
-// trace
+// trace es un método para imprimir la pila de llamadas de una función.
 
 function funcA() {
-    funcB()
+  funcB();
 }
 
 function funcB() {
-    console.trace("Seguimiento de la ejecución.")
+  console.trace("Seguimiento de la ejecución.");
 }
 
-funcA()
+funcA();
 
-// clear
+// clear es un método para limpiar la consola.
 
 // console.clear()
