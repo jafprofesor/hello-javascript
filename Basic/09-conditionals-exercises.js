@@ -114,7 +114,6 @@ if (
 // versión calendario Juliano, Gregoriano
 let anio = 8;
 // El calendario gregoriano se adoptó en 1582
-// El calendario gregoriano se adoptó en 1582
 const ANIO_ADOPCION_GREGORIANO = 1582;
 
 if (anio < ANIO_ADOPCION_GREGORIANO) {
@@ -211,3 +210,18 @@ switch (mes) {
     console.log("Mes incorrecto");
 }
 console.log(dias);
+
+// Calcular letra DNI
+
+let numeroDNI = 12345678;
+// Tabla de letras para el DNI
+const letras = "TRWAGMYFPDXBNJZSQVHLCKET";
+
+// Calcular el resto de la división del número del DNI entre 23
+const resto = numeroDNI % 23;
+
+// Obtener la letra correspondiente al resto
+const letra = letras[resto];
+
+// Mostrar el resultado en la consola
+console.log(`La letra del DNI ${numeroDNI} es ${letra}.`);
