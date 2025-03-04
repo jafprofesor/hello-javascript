@@ -42,29 +42,29 @@ console.log(message);
 // switch
 // switch (valor) { case valor1: código a ejecutar si el valor es valor1; break; case valor2: código a ejecutar si el valor es valor2; break; default: código a ejecutar si el valor no coincide con ninguno de los casos anteriores; }
 
-let day = 3;
+let day = 5;
 let dayName;
 
 switch (day) {
-  case 0:
+  case 1:
     dayName = "Lunes";
     break;
-  case 1:
+  case 2:
     dayName = "Martes";
     break;
-  case 2:
+  case 3:
     dayName = "Miércoles";
     break;
-  case 3:
+  case 4:
     dayName = "Jueves";
     break;
-  case 4:
+  case 5:
     dayName = "Viernes";
     break;
-  case 5:
+  case 6:
     dayName = "Sábado";
     break;
-  case 6:
+  case 7:
     dayName = "Domingo";
     break;
   default:
