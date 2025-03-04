@@ -59,9 +59,10 @@ let myArray = Array.from(mySet); // Convertir un set a array
 console.log(myArray);
 
 // Convertir un array a set
-
+myArray[5] = "jaf";
+console.log("con el jaf duplicado: " + myArray);
 mySet = new Set(myArray); // Convertir un array a set
-console.log(mySet);
+console.log("con el jaf duplicado: " + mySet);
 
 // No admite duplicados
 

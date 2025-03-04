@@ -40,6 +40,7 @@ console.log(myMap);
 // get
 
 console.log(myMap.get("name")); // Sirve para obtener el valor de una clave
+let valorDelNombre = myMap["name"]; // Es lo mismo que la línea anterior
 console.log(myMap.get("surname")); // Sirve para obtener el valor de una clave que no existe
 
 // has

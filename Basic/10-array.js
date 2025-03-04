@@ -1,7 +1,7 @@
 /*
 Clase 25 - Arrays
 */
-
+/*
 // Array es una colección de valores
 // Tiene índices
 // Tiene propiedades length
@@ -51,21 +51,23 @@ myArray[1] = "jaf"; // Aquí se inicializa el segundo elemento
 console.log(myArray);
 
 // Métodos comunes
-
-myArray = []; // Array vacío
+*/
+let myArray = []; // Array vacío
 
 // push y pop
 
 myArray.push("Juan"); // Añade al final
+console.log(myArray);
 myArray.push("Antonio"); // Añade al final
+console.log(myArray);
 myArray.push("jaf"); // Añade al final
+console.log(myArray);
 myArray.push(37); // Añade al final
-
 console.log(myArray);
 
 console.log(myArray.pop()); // Elimina el último y lo devuelve
-myArray.pop(); // Elimina el último
-
+let valorExtraido = myArray.pop(); // Elimina el último
+console.log(valorExtraido);
 console.log(myArray);
 
 // shift y unshift
@@ -92,8 +94,8 @@ myArray = ["Juan", "Antonio", "jaf", 37, true]; // Array con 5 elementos
 
 let myNewArray = myArray.slice(1, 3); // Copia los elementos del 1 al 3
 
-console.log(myArray);
-console.log(myNewArray);
+console.log("Completo: " + myArray);
+console.log("slice(1, 3): " + myNewArray);
 
 // splice
 
