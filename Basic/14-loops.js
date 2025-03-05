@@ -2,17 +2,17 @@
 Clase 29 - Bucles
 */
 
-// Loops o bucles
-// Son estructuras de control de flujo que nos permiten repetir un bloque de código un número determinado de veces
-// o mientras se cumpla una condición
-// En JavaScript tenemos los bucles for, while, do while, for of y for in
-// También podemos usar las palabras reservadas break y continue
+/* Loops o bucles
+Son estructuras de control de flujo que nos permiten repetir un bloque de código un número determinado de veces
+o mientras se cumpla una condición
+En JavaScript tenemos los bucles for, while, do while, for of y for in
+También podemos usar las palabras reservadas break y continue */
 
 // for
-// for (inicialización; condición; incremento) { bloque de código }
-// La inicialización se ejecuta una sola vez al principio
-// La condición se evalúa antes de cada iteración
-// El incremento se ejecuta al final de cada iteración
+/* for (inicialización; condición; incremento) { bloque de código }
+La inicialización se ejecuta una sola vez al principio
+La condición se evalúa antes de cada iteración
+El incremento se ejecuta al final de cada iteración*/
 
 for (let i = 0; i < 5; i++) {
   console.log(`Hola ${i}`);
@@ -25,11 +25,11 @@ for (let i = 0; i < numbers.length; i++) {
 } // Elemento: 1, Elemento: 2, Elemento: 3, Elemento: 4, Elemento: 5, Elemento: 6, Elemento: 7, Elemento: 8
 
 // while
-// while (condición) { bloque de código }
-// La condición se evalúa antes de cada iteración
-// Si la condición es verdadera, se ejecuta el bloque de código
-// Si la condición es falsa, se sale del bucle
-// Es posible que el bloque de código no se ejecute nunca si la condición es falsa desde el principio
+/* while (condición) { bloque de código }
+La condición se evalúa antes de cada iteración
+Si la condición es verdadera, se ejecuta el bloque de código
+Si la condición es falsa, se sale del bucle
+Es posible que el bloque de código no se ejecute nunca si la condición es falsa desde el principio*/
 
 let i = 0;
 while (i < 5) {
@@ -42,11 +42,11 @@ while (i < 5) {
 // }
 
 // do while
-// do { bloque de código } while (condición)
-// La condición se evalúa después de cada iteración
-// Si la condición es verdadera, se ejecuta el bloque de código
-// Si la condición es falsa, se sale del bucle
-// Se ejecuta al menos una vez
+/* do { bloque de código } while (condición)
+La condición se evalúa después de cada iteración
+Si la condición es verdadera, se ejecuta el bloque de código
+Si la condición es falsa, se sale del bucle
+Se ejecuta al menos una vez*/
 
 i = 6;
 do {
@@ -55,10 +55,10 @@ do {
 } while (i < 5);
 
 // for of
-// for (variable of iterable) { bloque de código }
-// La variable toma el valor de cada elemento del iterable
-// El iterable puede ser un array, un string, un set, un map, etc.
-// No se puede usar con objetos, ya que no son iterables
+/* for (variable of iterable) { bloque de código }
+La variable toma el valor de cada elemento del iterable
+El iterable puede ser un array, un string, un set, un map, etc.
+No se puede usar con objetos, ya que no son iterables*/
 
 let myArray = [1, 2, 3, 4]; // Array es un objeto iterable
 

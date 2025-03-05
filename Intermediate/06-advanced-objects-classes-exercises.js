@@ -1,6 +1,5 @@
 /*
-Clase 3 - Objetos y Clases avanzadas (12/02/2025)
-Vídeo: https://www.twitch.tv/videos/2379412787?t=00h21m33s
+Clase 3 - Objetos y Clases avanzadas 
 */
 
 // 1. Agregega una función al prototipo de un objeto

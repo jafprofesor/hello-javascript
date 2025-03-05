@@ -1,17 +1,16 @@
 /*
-Clase 4 - Programación asíncrona (19/02/2025)
-Vídeo: https://www.twitch.tv/videos/2385650388?t=00h22m48s
+Clase 4 - Programación asíncrona 
 */
 
 // Programación asíncrona
 
 // Código síncrono
 
-console.log("Inicio")
+console.log("Inicio");
 
-for (let i = 0; i < 100000000; i++) { }
+for (let i = 0; i < 100000000; i++) {}
 
-console.log("Fin")
+console.log("Fin");
 
 // Event Loop (Bucle de eventos)
 
@@ -31,124 +30,123 @@ console.log("Fin")
 
 // - Callbacks
 
-console.log("Inicio")
+console.log("Inicio");
 
 setTimeout(() => {
-    console.log("Esto se ejecuta después de 2 segundos")
-}, 2000)
+  console.log("Esto se ejecuta después de 2 segundos");
+}, 2000);
 
-console.log("Fin")
+console.log("Fin");
 
 // - Problema: Callback Hell
 
 function step1(callback) {
-    setTimeout(() => {
-        console.log("Paso 1 completado")
-        callback()
-    }, 1000)
+  setTimeout(() => {
+    console.log("Paso 1 completado");
+    callback();
+  }, 1000);
 }
 
 function step2(callback) {
-    setTimeout(() => {
-        console.log("Paso 2 completado")
-        callback()
-    }, 1000)
+  setTimeout(() => {
+    console.log("Paso 2 completado");
+    callback();
+  }, 1000);
 }
 
 function step3(callback) {
-    setTimeout(() => {
-        console.log("Paso 3 completado")
-        callback()
-    }, 1000)
+  setTimeout(() => {
+    console.log("Paso 3 completado");
+    callback();
+  }, 1000);
 }
 
 step1(() => {
-    step2(() => {
-        step3(() => {
-            console.log("Todos los pasos completados")
-        })
-    })
-})
+  step2(() => {
+    step3(() => {
+      console.log("Todos los pasos completados");
+    });
+  });
+});
 
 // - Promesas
 
 const promise = new Promise((resolve, reject) => {
-    // IMPORTANTE: Inicialmente escribí setInterval, pero lo correcto es setTimeout
-    // setInterval se ejecutaría indefinidamente cada 4s, y el proceso nunca finalizaría
-    setTimeout(() => {
-        const ok = false
-        if (ok) {
-            resolve("Operación exitosa")
-        } else {
-            reject("Se ha producido un error")
-        }
-    }, 4000)
-})
+  // IMPORTANTE: Inicialmente escribí setInterval, pero lo correcto es setTimeout
+  // setInterval se ejecutaría indefinidamente cada 4s, y el proceso nunca finalizaría
+  setTimeout(() => {
+    const ok = false;
+    if (ok) {
+      resolve("Operación exitosa");
+    } else {
+      reject("Se ha producido un error");
+    }
+  }, 4000);
+});
 
 promise
-    .then(result => {
-        console.log(result)
-    })
-    .catch(error => {
-        console.log(error)
-    })
+  .then((result) => {
+    console.log(result);
+  })
+  .catch((error) => {
+    console.log(error);
+  });
 
 // - Encadenamiento de promesas
 
 function step1Promise() {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            console.log("Paso 1 con promesa completado")
-            resolve()
-        }, 1000)
-    })
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Paso 1 con promesa completado");
+      resolve();
+    }, 1000);
+  });
 }
 
 function step2Promise() {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            console.log("Paso 2 con promesa completado")
-            resolve()
-        }, 1000)
-    })
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Paso 2 con promesa completado");
+      resolve();
+    }, 1000);
+  });
 }
 
 function step3Promise() {
-    return new Promise(resolve => {
-        setTimeout(() => {
-            console.log("Paso 3 con promesa completado")
-            resolve()
-        }, 1000)
-    })
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      console.log("Paso 3 con promesa completado");
+      resolve();
+    }, 1000);
+  });
 }
 
 step1Promise()
-    .then(step2Promise)
-    .then(step3Promise)
-    .then(() => {
-        console.log("Todos los pasos con promesa completados")
-    })
+  .then(step2Promise)
+  .then(step3Promise)
+  .then(() => {
+    console.log("Todos los pasos con promesa completados");
+  });
 
 // - Async/Await
 
 function wait(ms) {
-    return new Promise(resolve => setTimeout(resolve, ms))
+  return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
 async function process() {
+  console.log("Inicio del proceso");
 
-    console.log("Inicio del proceso")
+  await wait(5000);
+  console.log("Proceso después de 5 segundos");
 
-    await wait(5000)
-    console.log("Proceso después de 5 segundos")
+  await wait(1000);
+  console.log("Proceso después de 1 segundo");
 
-    await wait(1000)
-    console.log("Proceso después de 1 segundo")
+  await wait(2000);
+  console.log("Proceso después de 2 segundos");
 
-    await wait(2000)
-    console.log("Proceso después de 2 segundos")
-
-    console.log("Fin del proceso")
+  console.log("Fin del proceso");
 }
 
-process()
+process();

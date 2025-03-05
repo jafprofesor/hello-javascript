@@ -13,6 +13,7 @@ Clase 33 - Objetos
 // Los objetos pueden ser comparados mediante igualdad.
 // Los objetos pueden ser iterados mediante un bucle for...in.
 // Los objetos pueden ser creados mediante funciones constructoras.
+// Se diferencial de los mapas en que los objetos son más simples y no tienen métodos.
 
 // Sintaxis
 // let object = {

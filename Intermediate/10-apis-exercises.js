@@ -1,6 +1,5 @@
 /*
-Clase 5 - Manejo de APIs (26/02/2025)
-Vídeo: https://www.twitch.tv/videos/2391820998?t=00h17m25s
+Clase 5 - Manejo de APIs
 */
 
 // 1. Realiza una petición GET con fetch() a JSONPlaceholder y muestra en la consola la lista de publicaciones

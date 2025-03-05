@@ -68,8 +68,8 @@ function sum(a, b) {
 }
 
 sum(5, 10); // 15
-sum(5); // NaN
-sum(); // NaN
+sum(5); // NaN (Not a Number)
+sum(); // NaN (Not a Number)
 
 function defaultSum(a = 0, b = 0) {
   console.log(a + b); // 0 + 0 = 0
