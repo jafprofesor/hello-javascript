@@ -30,6 +30,7 @@ function myFuncWithParams(name) {
 
 myFuncWithParams("Juan");
 myFuncWithParams("jaf");
+myFuncWithParams("Antonio");
 
 // Funciones anónimas
 // Las funciones anónimas no tienen nombre y se asignan a una variable
@@ -66,6 +67,8 @@ myFunc4("Juan Antonio");
 function sum(a, b) {
   console.log(a + b);
 }
+
+const sumaflecha = (a, b) => console.log(a + b);
 
 sum(5, 10); // 15
 sum(5); // NaN (Not a Number)

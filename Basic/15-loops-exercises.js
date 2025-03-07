@@ -54,7 +54,7 @@ for (let i = 0; i < text.length; i++) {
     vowels++;
   }
 }
-
+console.log(vowels);
 // 6. Dado un array de números, usa un bucle para multiplicar todos los números y mostrar el producto
 const numbers = [2, 3, 5, 7, 11];
 let product = 1;

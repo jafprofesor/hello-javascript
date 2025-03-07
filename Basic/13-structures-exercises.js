@@ -10,7 +10,7 @@ animals.unshift("tortuga");
 animals.push("conejo");
 
 // 3. Elimina el que se encuentra en tercera posición
-console.log(animals);
+console.log("lista completa: " + animals);
 animals.splice(2, 1);
 console.log(animals);
 
