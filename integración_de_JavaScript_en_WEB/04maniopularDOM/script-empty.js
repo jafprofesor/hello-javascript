@@ -4,7 +4,7 @@ Ejercicio: Seleccionar Elementos del DOM
 Objetivo: Implementar diferentes métodos de selección de elementos del DOM y
 demostrar la diferencia entre HTMLCollection y NodeList.
 
-Tareas:
+Tareas: 
 
 1. Selección por ID
    - Seleccionar el elemento con id="parrafo-id"
@@ -39,22 +39,17 @@ Instrucciones:
 // 1. Selección por ID
 // Implementa aquí la selección por ID
 
-
 // 2. Selección por Clase
 // Implementa aquí la selección por clase
-
 
 // 3. Selección por Etiqueta
 // Implementa aquí la selección por etiqueta
 
-
 // 4. Uso de querySelector
 // Implementa aquí la selección con querySelector
 
-
 // 5. Uso de querySelectorAll
 // Implementa aquí la selección con querySelectorAll
-
 
 // 6. Demostración de HTMLCollection vs NodeList
 // Implementa aquí la demostración de la diferencia entre HTMLCollection y NodeList
