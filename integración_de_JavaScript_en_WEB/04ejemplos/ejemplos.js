@@ -60,18 +60,25 @@ document.addEventListener("DOMContentLoaded", () => {
   document.getElementById("contenedor").appendChild(nuevoElemento); // Añade el nuevo párrafo al elemento con ID "contenedor"
 
   // Ejemplo 7: remove
-  window.eliminarElemento = () => {
+  document.eliminarElemento = () => {
     // Define una función global para eliminar un elemento
     const elementoAEliminar = document.getElementById("elementoAEliminar"); // Selecciona el elemento a eliminar por su ID
     if (elementoAEliminar) {
       // Verifica si el elemento existe
       elementoAEliminar.remove(); // Elimina el elemento del DOM
+    } else {
+      // Verifica si el elemento no existe
+      const nuevoElemento = document.createElement("p"); // Crea un nuevo elemento de párrafo
+      nuevoElemento.textContent =
+        "Este elemento será eliminado si pulsas el botón"; // Establece el contenido de texto del nuevo párrafo
+      nuevoElemento.id = "elementoAEliminar"; // Establece el ID del nuevo párrafo
+      document.getElementById("incrustar").appendChild(nuevoElemento); // Añade el nuevo párrafo al elemento con ID "contenedor"
     }
   };
 
   // Ejemplo 8: Cambiar atributos
   let imagenAlternada = false; // Variable para controlar el estado de la imagen
-  window.cambiarImagen = () => {
+  document.cambiarImagen = () => {
     // Define una función global para alternar entre dos imágenes
     const miImagen = document.getElementById("miImagen"); // Selecciona la imagen por su ID
     if (imagenAlternada) {
