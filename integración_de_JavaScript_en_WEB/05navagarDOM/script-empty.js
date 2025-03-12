@@ -1,15 +1,15 @@
 // Función para mostrar información de navegación
 function mostrarInformacion(mensaje) {
-    // TODO: Implementar esta función para mostrar mensajes en el panel de información
-    // 1. Obtener el elemento con id 'info-navegacion'
-    // 2. Agregar el mensaje como un nuevo párrafo al panel
+  // TODO: Implementar esta función para mostrar mensajes en el panel de información
+  // 1. Obtener el elemento con id 'info-navegacion'
+  // 2. Agregar el mensaje como un nuevo párrafo al panel
 }
 
 // Función para resaltar un elemento
 function resaltarElemento(elemento) {
-    // TODO: Implementar esta función para resaltar el elemento clickeado
-    // 1. Remover la clase 'highlight' de todos los elementos que la tengan
-    // 2. Agregar la clase 'highlight' al elemento clickeado si existe
+  // TODO: Implementar esta función para resaltar el elemento clickeado
+  // 1. Remover la clase 'highlight' de todos los elementos que la tengan
+  // 2. Agregar la clase 'highlight' al elemento clickeado si existe
 }
 
 // TODO: Obtener el elemento actual con id 'elemento-actual'
