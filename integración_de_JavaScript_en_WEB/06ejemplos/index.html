@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ejemplos de Modificación del DOM</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+      .demo-section {
+        border: 1px solid #ccc;
+        margin: 20px 0;
+        padding: 20px;
+        border-radius: 5px;
+      }
+      .demo-element {
+        background-color: #f0f0f0;
+        padding: 10px;
+        margin: 10px 0;
+      }
+      button {
+        padding: 8px 16px;
+        margin: 5px;
+        cursor: pointer;
+      }
+      .info {
+        color: #666;
+        font-style: italic;
+        margin-top: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ejemplos de Modificación del DOM</h1>
+
+    <!-- Sección 1: Modificar contenido con textContent -->
+    <section class="demo-section">
+      <h2>1. Modificar Contenido (textContent)</h2>
+      <div id="texto-contenido" class="demo-element">Contenido original</div>
+      <button onclick="modificarContenidoTexto()">Modificar Texto</button>
+      <p class="info">
+        Usa textContent para modificar el contenido de texto del elemento
+      </p>
+    </section>
+
+    <!-- Sección 2: Modificar contenido con innerHTML -->
+    <section class="demo-section">
+      <h2>2. Modificar Contenido (innerHTML)</h2>
+      <div id="html-contenido" class="demo-element">Texto normal</div>
+      <button onclick="modificarContenidoHTML()">Modificar HTML</button>
+      <p class="info">
+        Usa innerHTML para insertar contenido HTML en el elemento
+      </p>
+    </section>
+
+    <!-- Sección 3: Modificar atributos -->
+    <section class="demo-section">
+      <h2>3. Modificar Atributos</h2>
+      <div id="atributos" class="demo-element" data-info="valor-original">
+        Elemento con atributos
+      </div>
+      <button onclick="modificarAtributos()">Modificar Atributos</button>
+      <p class="info">Demuestra el uso de setAttribute y getAttribute</p>
+    </section>
+
+    <!-- Sección 4: Modificar imagen -->
+    <section class="demo-section">
+      <h2>4. Modificar Imagen</h2>
+      <img
+        id="mi-imagen"
+        src="https://picsum.photos/150/150"
+        alt="Imagen de ejemplo"
+        class="demo-element"
+      />
+      <button onclick="modificarImagen()">Cambiar Imagen</button>
+      <p class="info">Modifica directamente el atributo src de una imagen</p>
+    </section>
+
+    <script src="script.js"></script>
+  </body>
+</html>
