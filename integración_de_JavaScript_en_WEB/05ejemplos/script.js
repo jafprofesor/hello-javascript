@@ -30,12 +30,12 @@ const hermanoAnterior5 = elemento5.previousElementSibling; // Obtiene el hermano
 
 // Agregamos botones para mostrar/ocultar los hermanos
 const btnToggle5 = document.createElement("button"); // Crea un nuevo elemento botón
-btnToggle5.textContent = "Mostrar/Ocultar Hermanos"; // Establece el texto del botón
+btnToggle5.textContent = "Ocultar Hermanos"; // Establece el texto del botón
 btnToggle5.onclick = () => {
   // Define una función para el evento click del botón
   if (siguienteHermano5.style.display === "none") {
     // Comprueba si los hermanos están ocultos
-    siguienteHermano5.style.display = ""; // Muestra el hermano siguiente (restablece a valor por defecto)
+    siguienteHermano5.style.display = "Block"; // Muestra el hermano siguiente (restablece a valor por defecto)
     hermanoAnterior5.style.display = ""; // Muestra el hermano anterior (restablece a valor por defecto)
     btnToggle5.textContent = "Ocultar Hermanos"; // Cambia el texto del botón
   } else {
@@ -109,3 +109,6 @@ if (hermanoSiguiente10) {
   hermanoSiguiente10.textContent = "Hermano siguiente actualizado"; // Cambia el contenido de texto del hermano siguiente
   hermanoSiguiente10.style.color = "blue"; // Cambia el color del texto a azul
 }
+// const elemento11 = document.getElementById("elemento11"); // Selecciona el elemento con ID "elemento11"// Obtiene el siguiente hermano elemento
+// elemento11.textContent = "Hermano siguiente actualizado y muy actualizado"; // Cambia el contenido de texto del hermano siguiente
+// elemento11.style.color = "red"; // Cambia el color del texto a azul
